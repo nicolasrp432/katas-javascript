@@ -4,5 +4,6 @@ export default defineConfig({
   test: {
     environment: 'node',
     include: ['src/**/*.{test,spec}.?(c|m)[jt]s?(x)'],
+    clearScreen: true,
   },
 });
