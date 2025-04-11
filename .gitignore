@@ -1,5 +1,5 @@
-**/.*
-!.gitignore
+**/.* #ignora los archivos que empiezan con un punto
+!.gitignore #este gitignore no se ignora
 !**/.gitkeep
 
 node_modules
